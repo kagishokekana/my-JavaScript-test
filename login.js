@@ -1,12 +1,14 @@
-let names = [];
-let Password = [];
+
 let Email = [];
+let Password = [];
 
-function findname() {
-    const names = document.getElementById("txt").value;
-    const Password = document.getElementById("user@gmail.com").value;
-    let displayList = document.getElementById("mypassword");
-    displayList.innerHTML += "<p>" + names + " , " + Password + "</p>";
-  
+function login() {
+    
+    var Email = document.getElementById('Email').value;
+    var Password = document.getElementById('Password').value;
+    
 
+function SUBMIT () {
+    alert("Email or Password is empty");
+}
 }
