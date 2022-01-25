@@ -3,12 +3,9 @@ body {
     
 }
 
-    navbar {
-        margin: 70px;
-        border: 1px solid #4c56af
+span{
+    text-align: center;
+    margin-left: 50%;
 }
 
-a{
-    text-align: center;
-    margin-left: 50;
-}
+
