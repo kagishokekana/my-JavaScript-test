@@ -8,7 +8,16 @@ function login() {
     var Password = document.getElementById('Password').value;
     
 
-function SUBMIT () {
-    alert("Email or Password is empty");
-}
+    var SUBMIT = document.getElementById("Email").value;
+    alert(SUBMIT);
+
+    var r=SUBMIT("please be empty email or password");
+if (r==true)
+  {
+  x="Please is email or passaword";
+  }
+else
+  {
+  x="Please is email or passaword";
+  }
 }
