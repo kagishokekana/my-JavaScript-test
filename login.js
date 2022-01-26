@@ -1,23 +1,20 @@
 
-let Email = [];
-let Password = [];
 
 function login() {
-    
-    var Email = document.getElementById('Email').value;
-    var Password = document.getElementById('Password').value;
-    
 
-    var SUBMIT = document.getElementById("Email").value;
-    alert(SUBMIT);
+  var email = document.getElementById('Email').value;
+  var password = document.getElementById('Password').value;
 
-    var r=SUBMIT("please be empty email or password");
-if (r==true)
-  {
-  x="Please is email or passaword";
+
+  if (email = "" || password == "") {
+    alert("Email or Password cannot be empty");
+    return;
   }
-else
-  {
-  x="Please is email or passaword";
+
+
+  if (condition) {
+    window.location.href = "home.html"
   }
+
+  
 }
