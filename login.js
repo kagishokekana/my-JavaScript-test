@@ -12,7 +12,7 @@ function login() {
   }
 
 
-  if (condition) {
+  if (email = "user@gmail.com" && password == "mypassword") {
     window.location.href = "home.html"
   }
 

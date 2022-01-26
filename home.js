@@ -1,38 +1,30 @@
 
-function login() {
     
-    var name = document.getElementById('name').value;
-    var age = document.getElementById('age').value;
-    let display = document.getElementById("display");
-  
-  
-   let login  = [
-    { name: 'hardy', age: '36'  },
-    { name: 'vusumuzi', age: '31' },
-     { name: 'wandile', age: '29' },
-     { name: 'charity', age: '26' },
-     { name: 'precious', age: '30' },
-     { name: 'andisiwe', age: '29' },  
-     { name: 'mmapaseka', age: '24' },
-    { name: 'mhlonipheni', age: '23' },
-     { name: 'khumbulani', age: '25' },
-     { name: 'sophie', age: '26' },
-     { name: 'lucky', age: '27' },
-     { name: 'sithembiso', age: '22' },
-     { name: 'happy', age: '27' },
-    { name: 'selina', age: '31' },
-     { name: 'nkosiphendule', age: '28' },
-     { name: 'kagisho', age: '26' },
+     let login = [
+       "hardy", "55",
+       "vusumuzi", "35" ,
+      "wandile", "26"  ,
+      "precious",  "28" ,
+       "andisiwe",  "39"  ,
+      "mmapaseka",  "35" ,
+      "mhlonipheni",  "25"  ,
+      "khumbulani", "37" ,
+      "sophie", "33"  ,
+      "lucky", "34 " ,
+      "sithembiso", "22" ,
+      "happy", "36 " ,
+      "selina", "33"  ,
+      "nkosiphendule",  "32 " ,
+      "mduduzi", "24 " ,
+      "kagisho", "35"  ,
+      "charity","28"  ,
   ];
-  
-  display.innerHTML ="";
 
-   for (let i = 0; i < login.length; i++) {
-      
-   if ((login[i].name == name) && (login[i].age == age)) {
 
-        location.href = './index.html';
   
-    }
+  for(let i = 0; i < login.length; i++) {
+   document.getElementById("display").innerHTML += "<li>" + login[i] + '</li>';
+   console.log(login);
   }
-}
+
+    
